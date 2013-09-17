@@ -1,0 +1,9 @@
+{
+  "couchdb": {
+    "ip": "127.0.0.1",
+    "port": 5984,
+    "database": "",
+    "username": "",
+    "password": ""
+  }
+}
