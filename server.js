@@ -46,4 +46,6 @@ app.get('/screen_name/:screen_name', function(req, res){
   });
 });
 
-app.listen(5555);
+app.listen(nconf.get('server').port, function(){
+  console.log('listening on port ' + nconf.get('server').port);
+});
